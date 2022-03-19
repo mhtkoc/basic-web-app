@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+background-color: #F9F7F7;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+background-color: #DBE2EF;
+line-height: 1.6;
+}
+
+.text-center{text-align: center;}
+
+
+.text-shadow-w{text-shadow: 1px 1px 1px white,2px 2px 2px  white ;}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("/img/");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:repeat;
+  background-size:auto;
+}
+/* For desktop: */
+.col-1 {width: 8.33%; flex: 0 0 auto;}
+.col-2 {width: 16.66%; flex: 0 0 auto;}
+.col-3 {width: 25%; flex: 0 0 auto;}
+.col-4 {width: 33.33%; flex: 0 0 auto;}
+.col-5 {width: 41.66%; flex: 0 0 auto;}
+.col-6 {width: 50%; flex: 0 0 auto;}
+.col-7 {width: 58.33%; flex: 0 0 auto;}
+.col-8 {width: 66.66%; flex: 0 0 auto;}
+.col-9 {width: 75%; flex: 0 0 auto; }
+.col-10 {width: 83.33%; flex: 0 0 auto;}
+.col-11 {width: 91.66%; flex: 0 0 auto;}
+.col-12 {width: 100%; flex: 0 0 auto;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+[class*="col-"] {
+ flex: 0 0 auto;
+}
+.row{
+    display: flex;
+}
+
+.w-50{width: 50%;}
+.w-75{width: 75%;}
+.w-25{width: 25%;}
+
+
+/*Padding*/
+.p-1{padding: 1rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
+.p-l1{padding-left:1rem;}
+.p-r1{padding-right:1rem;}
+.p-auto{padding: auto !important;}
+
+
+
+/* Margin*/
+.m-auto{margin:auto;}
+.m-1{margin:1rem;}
+.m-2{margin:2rem;}
+.m-3{margin:3rem;}
+
+
+
+
+
+.about-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+
+nav{
+    background-color: #112D4E;
+    border-radius: 25px;
+    margin: 1.5rem;
+}
+.nav{
+    list-style-type: none;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    padding-inline: 15px;
+}
+.nav li a:hover{color: gray;}
+
+
+
+/*color */
+.white{color: white;}
+.black{color:black;}
+.grey{color: gray;}
+
+
+/* backgroundcolor  */
+.bg-white{background-color: white;}
+.bg-black{background-color: black;}
+.bg-gray{background-color: gray;}
+
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 #112D4E;
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 #112D4E;
+}
+a{
+    text-decoration: none;
+}
+
+/* Bootstrap 5 class*/
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.d-flex{
+    display: flex;
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
